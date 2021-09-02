@@ -7,7 +7,10 @@ pip install markdown
 Run server:
 python manage.py runserver
 
-url: http://localhost:8000/
+Painel Admin:
+usuario: djangoadmin
+senha:admin
+url: http://localhost:8000/admin/
 
 Listar Funcionarios:
 Metodo: GET
