@@ -4,6 +4,11 @@ Dependencias:
 pip install djangorestframework
 pip install markdown
 
+Run server:
+python manage.py runserver
+
+url: http://localhost:8000/
+
 Listar Funcionarios:
 Metodo: GET
 URL: http://localhost:8000/employee/
