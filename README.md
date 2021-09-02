@@ -28,7 +28,7 @@ body:
 }
 
 Atualizar Funcionario:
-Metodo: POST
+Metodo: PUT
 URL: http://localhost:8000/employee/{id}/
 header: content-type/application/json
 body: 
@@ -39,5 +39,5 @@ body:
 }
 
 Deletar funcionarios
-Metodo: Delete
+Metodo: DELETE
 URL: http://localhost:8000/employee/{id}/
