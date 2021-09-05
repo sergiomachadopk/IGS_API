@@ -16,11 +16,11 @@ Executando:
 python manage.py runserver
 
 ## Painel Admin:
-usuario: djangoadmin
+Usuario: djangoadmin
 
-senha: admin
+Senha: admin
 
-url: http://localhost:8000/admin/
+Url: http://localhost:8000/admin/
 
 ## API:
 
