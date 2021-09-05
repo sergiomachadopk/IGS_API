@@ -11,17 +11,24 @@ pip install djangorestframework
 pip install markdown
 ```
 
-Run server:
+Executando:
+
 python manage.py runserver
 
-Painel Admin:
+## Painel Admin:
 usuario: djangoadmin
+
 senha:admin
+
 url: http://localhost:8000/admin/
 
 Listar Funcionarios:
+
 Metodo: GET
+
+```sh
 URL: http://localhost:8000/employee/
+```
 
 Cadastrar Funcionario:
 Metodo: POST
