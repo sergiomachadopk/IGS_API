@@ -41,26 +41,35 @@ Exemplo:
 
 header: content-type/application/json
 
-body: 
+body:
+```sh
 {
-
     "name": "Exemplo", <string>   
     "email": "exemplo@exemplo", <string>    
-    "department": "Teste" <string>
-    
+    "department": "Teste" <string>   
 }
+```
 
 Atualizar Funcionario:
+
 Metodo: PUT
-URL: http://localhost:8000/employee/{id}/
+
+```sh
+http://localhost:8000/employee/{id}/
+```
 header: content-type/application/json
-body: 
+
+body:
+```sh
 {
     "name": "Exemplo", <string>
     "email": "exemplo@exemplo", <string>
     "department": "Teste" <string>
 }
+```
+Deletar funcionario:
 
-Deletar funcionarios
 Metodo: DELETE
-URL: http://localhost:8000/employee/{id}/
+```sh
+http://localhost:8000/employee/{id}/
+```
