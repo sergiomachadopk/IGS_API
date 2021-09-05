@@ -22,23 +22,35 @@ senha:admin
 
 url: http://localhost:8000/admin/
 
+## API:
+
 Listar Funcionarios:
 
 Metodo: GET
-
 ```sh
-URL: http://localhost:8000/employee/
+http://localhost:8000/employee/
 ```
 
 Cadastrar Funcionario:
+
 Metodo: POST
-URL: http://localhost:8000/employee/
+```sh
+http://localhost:8000/employee/
+```
+Exemplo:
+
 header: content-type/application/json
+
 body: 
+
 {
+
     "name": "Exemplo", <string>
+    
     "email": "exemplo@exemplo", <string>
+    
     "department": "Teste" <string>
+    
 }
 
 Atualizar Funcionario:
