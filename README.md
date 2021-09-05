@@ -18,7 +18,7 @@ python manage.py runserver
 ## Painel Admin:
 usuario: djangoadmin
 
-senha:admin
+senha: admin
 
 url: http://localhost:8000/admin/
 
@@ -37,7 +37,6 @@ Metodo: POST
 ```sh
 http://localhost:8000/employee/
 ```
-Exemplo:
 
 header: content-type/application/json
 
@@ -53,7 +52,6 @@ body:
 Atualizar Funcionario:
 
 Metodo: PUT
-
 ```sh
 http://localhost:8000/employee/{id}/
 ```
