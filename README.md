@@ -42,13 +42,10 @@ Exemplo:
 header: content-type/application/json
 
 body: 
-
 {
 
-    "name": "Exemplo", <string>
-    
-    "email": "exemplo@exemplo", <string>
-    
+    "name": "Exemplo", <string>   
+    "email": "exemplo@exemplo", <string>    
     "department": "Teste" <string>
     
 }
