@@ -20,7 +20,7 @@ Usuario: djangoadmin
 
 Senha: admin
 
-Url: http://localhost:8000/admin/
+URL: http://localhost:8000/admin/
 
 ## API:
 
