@@ -1,6 +1,11 @@
 # IGS_API
 
 ## Dependencias
+DJANGO:
+
+```sh
+pip install django
+```
 
 REST FRAMEWORK:
 
