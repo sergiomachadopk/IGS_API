@@ -1,8 +1,15 @@
 # IGS_API
 
-Dependencias:
+## Dependencias
+
+REST FRAMEWORK:
+
+```sh
 pip install djangorestframework
+```
+```sh
 pip install markdown
+```
 
 Run server:
 python manage.py runserver
