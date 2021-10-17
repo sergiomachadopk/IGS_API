@@ -5,3 +5,5 @@ def soma_dois_numero(x,y):
 
 def foo():
     return 'foo'
+def foo_2():
+    return 'foo_2'
