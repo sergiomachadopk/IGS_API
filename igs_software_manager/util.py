@@ -20,3 +20,7 @@ def consulta_departamento():
 def foo_3():
 
     return 'foo_3'
+
+def new_foo():
+
+    return 'new_foo'
