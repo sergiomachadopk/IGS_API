@@ -9,6 +9,10 @@ def foo():
 def foo_2():
     return 'foo_2'
 
+def consulta_funcionarios():
+
+    return 'lista de funcionarios'
+
 def consulta_departamento():
 
     return 'Lista de departamentos'
