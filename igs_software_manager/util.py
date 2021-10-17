@@ -16,3 +16,7 @@ def consulta_funcionarios():
 def consulta_departamento():
 
     return 'Lista de departamentos'
+
+def foo_3():
+
+    return 'foo_3'
